@@ -1,5 +1,6 @@
 package leetcode
 
+// 雙指針解(Two Pointers): O(n)
 func removeElement(nums []int, val int) int {
 	i := 0
 
