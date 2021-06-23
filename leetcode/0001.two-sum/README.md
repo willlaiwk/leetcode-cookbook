@@ -44,7 +44,6 @@ Output: [0,1]
 
 但我們可以用 Map (or Dictionary) 將時間複雜度降到 `O(n)`，
 
-思路是 Loop `nums`：
-
+思路是 Loop `nums`:
 1. 若 `map[target - nums[i]]` 不存在，則 `map[nums[i]] = i`
 2. 若 `map[target - nums[i]]` 存在，則返回 `[i, map[target - nums[i]]]`
